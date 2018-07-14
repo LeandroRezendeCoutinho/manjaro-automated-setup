@@ -1,0 +1,1 @@
+yaourt -S slack-desktop
