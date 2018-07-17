@@ -29,22 +29,23 @@ bash environment-setup.sh
 ### List of packages
 
 ##### Pacman list
-* octopi
-* git
-* zsh
 * atom
-* steam
-* neovim
-* postgresql
 * dbeaver
+* git
+* neovim
+* octopi
+* postgresql
+* steam
+* zsh
 
 ##### Yaourt list
 * chrome
+* slack
 * spotify
 * visual studio code
-* slack
 
 ##### Environment setup list
-* ruby
-* postgresql
 * git
+* postgresql
+* ruby
+* tmux-mem-cpu-load
