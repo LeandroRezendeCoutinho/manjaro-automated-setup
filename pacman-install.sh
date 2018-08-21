@@ -12,11 +12,15 @@ pacman-mirrors --fasttrack
 echo "Updating packages before install"
 pacman -Syyu
 
-bash scripts/pacman/octopi-install.sh
-bash scripts/pacman/git-install.sh
-bash scripts/pacman/zsh-install.sh
 bash scripts/pacman/atom-install.sh
-bash scripts/pacman/steam-install.sh
-bash scripts/pacman/neovim-install.sh
-bash scripts/pacman/postgresql-install.sh
+bash scripts/pacman/base-devel-install.sh
 bash scripts/pacman/dbeaver-install.sh
+bash scripts/pacman/git-install.sh
+bash scripts/pacman/neovim-install.sh
+bash scripts/pacman/notepadqq-install.sh
+bash scripts/pacman/octopi-install.sh
+bash scripts/pacman/opera-install.sh
+bash scripts/pacman/postgresql-install.sh
+bash scripts/pacman/steam-install.sh
+bash scripts/pacman/zsh-install.sh
+
