@@ -9,9 +9,6 @@ echo "EDITFILES=0" >> ~/.yaourtrc
 sudo yaourt -Syy
 
 bash scripts/yaourt/chrome-install.sh
-
 bash scripts/yaourt/spotify-install.sh
-
 bash scripts/yaourt/visual-studio-code-install.sh
-
 bash scripts/yaourt/slack-desktop-install.sh
