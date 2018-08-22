@@ -6,4 +6,4 @@ then
     exit 1
 fi
 
-sudo pacman -S opera
+pacman -S opera --noconfirm

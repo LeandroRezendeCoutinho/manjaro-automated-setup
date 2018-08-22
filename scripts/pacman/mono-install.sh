@@ -6,4 +6,4 @@ then
     exit 1
 fi
 
-pacman -S steam-native --noconfirm
+pacman -S mono --noconfirm

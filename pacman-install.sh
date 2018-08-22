@@ -23,5 +23,6 @@ bash scripts/pacman/octopi-install.sh
 bash scripts/pacman/opera-install.sh
 bash scripts/pacman/postgresql-install.sh
 bash scripts/pacman/steam-install.sh
+bash scripts/pacman/wine-install.sh
 bash scripts/pacman/zsh-install.sh
 
