@@ -15,6 +15,7 @@ pacman -Syyu
 bash scripts/pacman/atom-install.sh
 bash scripts/pacman/base-devel-install.sh
 bash scripts/pacman/cmake-install.sh
+bash scripts/pacman/ctags-install.sh
 bash scripts/pacman/dbeaver-install.sh
 bash scripts/pacman/git-install.sh
 bash scripts/pacman/neovim-install.sh

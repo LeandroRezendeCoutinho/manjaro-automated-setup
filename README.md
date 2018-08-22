@@ -30,22 +30,32 @@ bash environment-setup.sh
 
 ##### Pacman list
 * atom
+* base-devel
+* cmake
+* ctags
 * dbeaver
 * git
+* mono
 * neovim
+* notepadqq
 * octopi
+* opera
 * postgresql
 * steam
+* wine
 * zsh
 
 ##### Yaourt list
 * chrome
+* heroku-cli
 * slack
 * spotify
 * visual studio code
 
 ##### Environment setup list
+* asdf
 * git
+* neovim
 * postgresql
 * ruby
 * tmux-mem-cpu-load
