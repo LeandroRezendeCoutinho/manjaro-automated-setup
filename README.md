@@ -42,6 +42,7 @@ bash environment-setup.sh
 * opera
 * postgresql
 * steam
+* telegram
 * wine
 * zsh
 
