@@ -23,6 +23,7 @@ bash scripts/pacman/notepadqq-install.sh
 bash scripts/pacman/octopi-install.sh
 bash scripts/pacman/opera-install.sh
 bash scripts/pacman/postgresql-install.sh
+bash scripts/pacman/redis-install.sh
 bash scripts/pacman/steam-install.sh
 bash scripts/pacman/telegram-desktop-install.sh
 bash scripts/pacman/wine-install.sh
