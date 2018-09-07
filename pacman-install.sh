@@ -17,8 +17,6 @@ bash scripts/pacman/base-devel-install.sh
 bash scripts/pacman/cmake-install.sh
 bash scripts/pacman/ctags-install.sh
 bash scripts/pacman/dbeaver-install.sh
-bash scripts/pacman/git-install.sh
-bash scripts/pacman/neovim-install.sh
 bash scripts/pacman/notepadqq-install.sh
 bash scripts/pacman/octopi-install.sh
 bash scripts/pacman/opera-install.sh
@@ -26,6 +24,9 @@ bash scripts/pacman/postgresql-install.sh
 bash scripts/pacman/redis-install.sh
 bash scripts/pacman/steam-install.sh
 bash scripts/pacman/telegram-desktop-install.sh
+bash scripts/pacman/tig-install.sh
 bash scripts/pacman/wine-install.sh
 bash scripts/pacman/zsh-install.sh
 
+# disabled session
+#bash scripts/pacman/flatpak-install.sh

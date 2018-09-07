@@ -3,6 +3,16 @@
 This repo aims to simplify and automate development environmemt
 for users of Manjaro Linux.
 
+## Tips and tricks
+
+**If your downloads are slow you can change the pacman download tool**
+
+```
+Install aria2: sudo pacman -S aria2
+Edit pacman conf: sudo nano /etc/pacman.conf
+add in section [options]: XferCommand = /usr/bin/aria2c --allow-overwrite=true --continue=true --file-allocation=none --log-level=error --max-tries=2 --max-connection-per-server=2 --max-file-not-found=5 --min-split-size=5M --no-conf --remote-time=true --summary-interval=60 --timeout=5 --dir=/ --out %o %u
+```
+
 ### How to use
 
 First access project directory after cloning
@@ -24,6 +34,13 @@ bash yaourt-install.sh
 #### Setup development environment *Ruby focused*
 ```
 bash environment-setup.sh
+```
+
+**Flatpak is optional**
+*To install flatpak uncomment pacman-install line with flatpak*
+#### Install flatpak packages
+```
+bash flatpak-install.sh
 ```
 
 ### List of packages
@@ -60,3 +77,6 @@ bash environment-setup.sh
 * postgresql
 * ruby
 * tmux-mem-cpu-load
+
+##### Flatpak list
+* visual studio code

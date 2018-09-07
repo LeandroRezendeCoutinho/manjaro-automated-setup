@@ -6,4 +6,4 @@ then
     exit 1
 fi
 
-pacman -S git --noconfirm
+pacman -S tig --noconfirm
