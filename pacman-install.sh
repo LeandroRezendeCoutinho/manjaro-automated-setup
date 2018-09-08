@@ -26,6 +26,7 @@ bash scripts/pacman/steam-install.sh
 bash scripts/pacman/telegram-desktop-install.sh
 bash scripts/pacman/tig-install.sh
 bash scripts/pacman/wine-install.sh
+bash scripts/pacman/xclip-install.sh
 bash scripts/pacman/zsh-install.sh
 
 # disabled session
