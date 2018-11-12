@@ -26,9 +26,9 @@ Follow scripts order
 sudo bash pacman-install.sh
 ```
 
-#### Install yaourt packages
+#### Install yay packages
 ```
-bash yaourt-install.sh
+bash yay-install.sh
 ```
 
 #### Setup development environment *Ruby focused*
@@ -63,7 +63,7 @@ bash flatpak-install.sh
 * wine
 * zsh
 
-##### Yaourt list
+##### yay list
 * chrome
 * heroku-cli
 * slack
