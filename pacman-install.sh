@@ -24,6 +24,7 @@ bash scripts/pacman/pamac-install.sh
 bash scripts/pacman/steam-install.sh
 bash scripts/pacman/telegram-desktop-install.sh
 bash scripts/pacman/tig-install.sh
+bash scripts/pacman/tmux-install.sh
 bash scripts/pacman/wine-install.sh
 bash scripts/pacman/yay-install.sh
 bash scripts/pacman/xclip-install.sh

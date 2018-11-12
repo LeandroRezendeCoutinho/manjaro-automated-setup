@@ -6,6 +6,8 @@ then
     exit 1
 fi
 
+pacman -S tmux --noconfirm
+
 git clone https://github.com/thewtex/tmux-mem-cpu-load
 
 cd tmux-mem-cpu-load

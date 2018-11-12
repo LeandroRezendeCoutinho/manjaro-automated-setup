@@ -5,6 +5,8 @@ chsh -s /usr/bin/fish
 curl -L https://get.oh-my.fish | fish
 omf install nelsonjchen
 
-curl -Lo ~/.config/fish/functions/fisher.fish --create-dirs https://git.io/fisher
-fisher rstacruz/fish-asdf
-
+echo ''
+echo 'if status is-interactive' >> ~/.config/fish/config.fish
+echo 'and not set -q TMUX' >> ~/.config/fish/config.fish
+echo '  exec tmux' >> ~/.config/fish/config.fish
+echo 'end' >> ~/.config/fish/config.fish

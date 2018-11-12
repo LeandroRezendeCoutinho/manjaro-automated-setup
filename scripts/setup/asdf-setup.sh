@@ -2,5 +2,5 @@
 
 git clone https://github.com/asdf-vm/asdf.git ~/.asdf
 
-echo -e '\n. $HOME/.asdf/asdf.sh' >> ~/.zshrc
-echo -e '\n. $HOME/.asdf/completions/asdf.bash' >> ~/.zshrc
+echo 'source ~/.asdf/asdf.fish' >> ~/.config/fish/config.fish
+mkdir -p ~/.config/fish/completions; and cp ~/.asdf/completions/asdf.fish ~/.config/fish/completions
