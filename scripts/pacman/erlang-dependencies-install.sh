@@ -6,4 +6,4 @@ then
     exit 1
 fi
 
-pacman -S docker docker-compose --noconfirm
+pacman -S glu mesa wxgtk2 libpng libssh unixodbc --noconfirm
