@@ -32,6 +32,9 @@ bash scripts/pacman/wine-install.sh
 bash scripts/pacman/yay-install.sh
 bash scripts/pacman/xclip-install.sh
 
+echo "changing to fish shell"
+chsh -s /usr/bin/fish
+
 # disabled session
 #bash scripts/pacman/flatpak-install.sh
 #bash scripts/pacman/postgresql-install.sh

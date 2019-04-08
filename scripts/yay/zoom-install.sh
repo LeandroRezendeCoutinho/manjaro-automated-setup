@@ -1,0 +1,1 @@
+yay -Sd --noconfirm zoom
