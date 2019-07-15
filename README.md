@@ -46,19 +46,26 @@ bash flatpak-install.sh
 ### List of packages
 
 ##### Pacman list
-* atom
 * base-devel
 * cmake
 * ctags
-* dbeaver
-* git
+* fish
+* flatpak
+* docker
+* ncurses
+* notepadqq
+* opera
+* pamac
+* steam
+* tig
+* tmux
+* yay
+* xclip
+
+##### Pacman (Optional disabled)
 * mono
 * neovim
-* notepadqq
-* octopi
-* opera
 * postgresql
-* steam
 * telegram
 * wine
 * zsh
@@ -66,17 +73,31 @@ bash flatpak-install.sh
 ##### yay list
 * chrome
 * heroku-cli
+* teamviewer
+
+##### yay (Optional disabled)
+* slack-desktop
+* spotify
+* visual-studio-code
+* zoom
+
+##### Flatpak list
+* atom
+* dbeaver
+* visual studio code
 * slack
 * spotify
-* visual studio code
 
 ##### Environment setup list
 * asdf
 * git
+* fish
+* ruby
+* teamviewer
+
+##### Environment (disabled)
+* heroku-cli
 * neovim
 * postgresql
-* ruby
 * tmux-mem-cpu-load
 
-##### Flatpak list
-* visual studio code

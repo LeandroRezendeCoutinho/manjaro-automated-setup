@@ -1,3 +1,3 @@
 #!bin/bash
 
-flatpak install flathub com.visualstudio.code
+flatpak install --assumeyes flathub com.visualstudio.code
