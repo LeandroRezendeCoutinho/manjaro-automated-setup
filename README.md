@@ -15,15 +15,16 @@ add in section [options]: XferCommand = /usr/bin/aria2c --allow-overwrite=true -
 
 ### How to use
 
-First access project directory after cloning
-```
-cd manjaro-automated-setup
-```
 Follow scripts order
 
 #### Install pacman packages
 ```
 sudo bash pacman-install.sh
+```
+
+#### Install pamac packages
+```
+sudo bash pamac-install.sh
 ```
 
 #### Install yay packages
@@ -46,58 +47,72 @@ bash flatpak-install.sh
 ### List of packages
 
 ##### Pacman list
+* atom
 * base-devel
 * cmake
 * ctags
-* fish
-* flatpak
+* dbeaver
 * docker
+* erlang-dependencies
+* fish
+* flatpak *(disabled)*
+* mono *(disabled)*
 * ncurses
+* neovim *(disabled)*
 * notepadqq
 * opera
 * pamac
+* plank
+* postgresql *(disabled)*
+* qbittorrent
+* redis *(disabled)*
 * steam
+* sublime-text
+* telegram-desktop
 * tig
 * tmux
-* yay
+* visual-studio-code
+* wine *(disabled)*
 * xclip
+* yay
+* zsh *(disabled)*
 
-##### Pacman (Optional disabled)
-* mono
-* neovim
-* postgresql
-* telegram
-* wine
-* zsh
+##### Pamac list
+* virtual-box
 
 ##### yay list
 * chrome
 * heroku-cli
-* teamviewer
-
-##### yay (Optional disabled)
 * slack-desktop
 * spotify
-* visual-studio-code
+* teamviewer
+* visual-studio-code *(disabled)*
+* whatsapp
 * zoom
 
-##### Flatpak list
+##### Flatpak list (optional)
 * atom
 * dbeaver
-* visual studio code
-* slack
+* franz
+* postman
 * spotify
+* visual studio code
+* zoom
 
 ##### Environment setup list
+
+##### Attention! Run fish setup manualy first 
+
 * asdf
-* git
+* docker
+* elixir *(disabled)*
+* erlang *(disabled)*
 * fish
+* git
+* neovim *(disabled)*
+* postgres *(disabled)*
 * ruby
 * teamviewer
-
-##### Environment (disabled)
-* heroku-cli
-* neovim
-* postgresql
-* tmux-mem-cpu-load
+* tmux
+* zsh *(disabled)*
 
