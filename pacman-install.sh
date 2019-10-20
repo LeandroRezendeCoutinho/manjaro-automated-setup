@@ -24,6 +24,7 @@ bash scripts/pacman/notepadqq-install.sh
 bash scripts/pacman/opera-install.sh
 bash scripts/pacman/pamac-install.sh
 bash scripts/pacman/plank-install.sh
+bash scripts/pacman/qbittorrent-install.sh
 bash scripts/pacman/steam-install.sh
 bash scripts/pacman/sublime-text-install.sh
 bash scripts/pacman/tig-install.sh
