@@ -7,7 +7,7 @@ then
 fi
 
 echo "Ranking server list for optimal performance"
-# pacman-mirrors --fasttrack
+pacman-mirrors --fasttrack
 
 echo "Updating packages before install"
 pacman -Syyu
