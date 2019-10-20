@@ -23,6 +23,7 @@ bash scripts/pacman/ncurses-install.sh
 bash scripts/pacman/notepadqq-install.sh
 bash scripts/pacman/opera-install.sh
 bash scripts/pacman/pamac-install.sh
+bash scripts/pacman/plank-install.sh
 bash scripts/pacman/steam-install.sh
 bash scripts/pacman/sublime-text-install.sh
 bash scripts/pacman/tig-install.sh
@@ -37,7 +38,7 @@ chsh -s /usr/bin/fish
 
 # disabled session
 # bash scripts/pacman/erlang-dependencies-install.sh
-#b ash scripts/pacman/flatpak-install.sh
+# bash scripts/pacman/flatpak-install.sh
 # bash scripts/pacman/mono-install.sh
 # bash scripts/pacman/neovim-install.sh
 # bash scripts/pacman/postgresql-install.sh
