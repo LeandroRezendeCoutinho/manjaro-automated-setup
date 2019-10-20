@@ -1,10 +1,12 @@
 #!bin/bash
 
 bash scripts/setup/asdf-setup.sh
+bash scripts/setup/docker-setup.sh
 bash scripts/setup/git-setup.sh
 bash scripts/setup/fish-setup.sh
 bash scripts/setup/ruby-setup.sh
 bash scripts/setup/teamviewer-setup.sh
+bash scripts/setup/tmux-setup.sh
 
 # optional
 # bash scripts/setup/erlang-setup.sh
