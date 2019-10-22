@@ -1,0 +1,13 @@
+#!bin/bash
+
+if [ ! "`whoami`" = "root" ]
+then
+    echo "Use sudo to run this script"
+    exit 1
+fi
+
+pacman -S snapd --noconfirm
+
+systemctl enable --now snapd.socket
+
+ln -s /var/lib/snapd/snap /snap

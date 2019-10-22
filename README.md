@@ -66,6 +66,7 @@ bash flatpak-install.sh
 * postgresql *(disabled)*
 * qbittorrent
 * redis *(disabled)*
+* snap
 * steam
 * sublime-text
 * telegram-desktop
@@ -99,9 +100,13 @@ bash flatpak-install.sh
 * visual studio code
 * zoom
 
+##### Snap list (optional)
+* whatsdesk
+* slack
+
 ##### Environment setup list
 
-##### Attention! Run fish setup manualy first 
+##### Attention! Run fish setup manualy first
 
 * asdf
 * docker
@@ -115,4 +120,3 @@ bash flatpak-install.sh
 * teamviewer
 * tmux
 * zsh *(disabled)*
-
