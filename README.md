@@ -120,3 +120,7 @@ bash flatpak-install.sh
 * teamviewer
 * tmux
 * zsh *(disabled)*
+
+##### Extra list (optional)
+* Planksettings
+* Remmina(remote desktop)
