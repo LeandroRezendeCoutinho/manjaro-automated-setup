@@ -105,6 +105,19 @@ bash flatpak-install.sh
 * slack
 
 ##### Environment setup list
+* asdf
+* docker
+* elixir
+* erlang
+* fish
+* git
+* neovim *(disabled)*
+* postgres *(disabled)*
+* ruby
+* swappiness
+* teamviewer
+* tmux
+* zsh *(disabled)*
 
 ##### Attention! Run fish setup manualy first
 
