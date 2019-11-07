@@ -6,4 +6,4 @@ then
     exit 1
 fi
 
-pamac install virtualbox --no-confirm 
+pamac build slack-desktop --no-confirm 

@@ -79,7 +79,9 @@ bash flatpak-install.sh
 * zsh *(disabled)*
 
 ##### Pamac list
+* slack
 * virtual-box
+* whatsapp
 
 ##### yay list
 * chrome
